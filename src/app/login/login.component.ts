@@ -41,7 +41,7 @@ toggleForm(form: 'login' | 'register') {
 login() {
   if (this.loginForm.valid) {
     console.log("Login info==>", this.loginForm.value);
-    this.router.navigate(['/budget-planner/dashboard']);
+    this.router.navigate(['/dashboard']);
   } else {
     this.snackBar.open('Invalid email or password!', 'Close', { duration: 3000 });
   }

@@ -10,21 +10,25 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { SideNavComponent } from './side-nav/side-nav.component';
 import {MatIconModule} from '@angular/material/icon';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { RouterModule } from '@angular/router';
+import { IncomeComponent } from './income/income.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     SideNavComponent,
-    DashboardComponent
+    DashboardComponent,
+    IncomeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     MatSnackBarModule,
     FormsModule,
     ReactiveFormsModule,
-    MatIconModule
+    MatIconModule,
+    AppRoutingModule,
+    
     
   ],
   providers: [

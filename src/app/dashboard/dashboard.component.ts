@@ -6,8 +6,12 @@ import { Router } from '@angular/router';
   templateUrl: './dashboard.component.html',
   styleUrl: './dashboard.component.css'
 })
-export class DashboardComponent {
+export class DashboardComponent  {
 
+
+ ngOnInit() {
+  
+ }
    //Income
    lastMonthsIncome = ['January: $1000', 'February: $1500', 'March: $1200'];
    currentMonthIncome = '$2000';
