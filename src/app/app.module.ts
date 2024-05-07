@@ -13,6 +13,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { RouterModule } from '@angular/router';
 import { IncomeComponent } from './income/income.component';
 import { ExpenseComponent } from './expense/expense.component';
+import { HistoryComponent } from './history/history.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ExpenseComponent } from './expense/expense.component';
     SideNavComponent,
     DashboardComponent,
     IncomeComponent,
-    ExpenseComponent
+    ExpenseComponent,
+    HistoryComponent
   ],
   imports: [
     BrowserModule,
