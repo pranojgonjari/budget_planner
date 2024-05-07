@@ -15,6 +15,7 @@ import { IncomeComponent } from './income/income.component';
 import { ExpenseComponent } from './expense/expense.component';
 import { HistoryComponent } from './history/history.component';
 import { TodoComponent } from './todo/todo.component';
+import { ProfileComponent } from './profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { TodoComponent } from './todo/todo.component';
     IncomeComponent,
     ExpenseComponent,
     HistoryComponent,
-    TodoComponent
+    TodoComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
