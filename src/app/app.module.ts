@@ -12,6 +12,7 @@ import {MatIconModule} from '@angular/material/icon';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { RouterModule } from '@angular/router';
 import { IncomeComponent } from './income/income.component';
+import { ExpenseComponent } from './expense/expense.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { IncomeComponent } from './income/income.component';
     LoginComponent,
     SideNavComponent,
     DashboardComponent,
-    IncomeComponent
+    IncomeComponent,
+    ExpenseComponent
   ],
   imports: [
     BrowserModule,
