@@ -52,7 +52,7 @@ register() {
     setTimeout(() => {
       window.location.reload();
     }, 2000);
-    this.router.navigate(['/budget-planner/login']);
+    this.router.navigate(['/login']);
   } else {
     this.snackBar.open('Please fill in all fields correctly!', 'Close', { duration: 3000 });
   }

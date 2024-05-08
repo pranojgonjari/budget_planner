@@ -124,7 +124,7 @@ export class TodoComponent {
   }
 
   onBack() {
-    this.router.navigate(['/budget-planner/dashboard']);
+    this.router.navigate(['/dashboard']);
   }
 
   toggleSelection(expense: any) {
